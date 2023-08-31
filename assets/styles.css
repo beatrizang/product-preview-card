@@ -105,3 +105,59 @@ body{
     margin-right: 5px;
     width: 15px;
 }
+
+/*tablet*/
+@media screen and (max-width: 768px) {
+    .main{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        margin: 2rem 0;
+    }
+
+    .card{
+        height: auto;
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .card__img{
+        border-radius: 8px 8px 0 0px;
+        height: auto;
+        width: 100%;
+    }
+
+    .card__text{
+        padding: 1rem;
+        width: 95%;
+    }
+}
+
+/*celulares*/
+@media screen and (max-width: 375px) {
+    .main{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        margin: 2rem 0;
+    }
+
+    .card{
+        height: auto;
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .card__img{
+        border-radius: 8px 8px 0 0px;
+        height: auto;
+        width: 100%;
+    }
+
+    .card__text{
+        padding: 1rem;
+        width: 95%;
+    }
+}
